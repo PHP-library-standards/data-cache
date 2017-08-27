@@ -1,0 +1,24 @@
+{
+    "name": "pls/data-cache",
+    "description": "PLS data cache specification",
+    "keywords": [
+        "PLS", "data cache", "cache"
+    ],
+    "homepage": "https://github.com/PHP-library-standards/data-cache",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHP Library Standards",
+            "homepage": "https://github.com/PHP-library-standards"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "pls/data-container": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pls\\Data\\Container\\": "src"
+        }
+    }
+}
